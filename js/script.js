@@ -8,7 +8,7 @@ function toglleVideo() {
 function changeBg(bg, title) {
   const banner = document.querySelector(".banner");
   const contents = document.querySelectorAll(".content");
-  banner.style.background = `url("../src/images/${bg}") no-repeat`;
+  banner.style.backgroundImage = `url("../src/images/${bg}") no-repeat`;
   banner.style.objectFit = "cover";
   banner.style.objectPosition = "position";
   banner.style.backgroundsize = "cover";
