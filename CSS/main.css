@@ -103,8 +103,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url("https://whatsondisneyplus.b-cdn.net/wp-content/uploads/2023/05/the-little-mermaid.jpg")
-    no-repeat;
+  /*background: url("https://whatsondisneyplus.b-cdn.net/wp-content/uploads/2023/05/the-little-mermaid.jpg")
+    no-repeat; */
+  background: url("../src/images/bg-the-little-mermaid.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
